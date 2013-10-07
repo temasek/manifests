@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-10.2" />
+  <project name="temasek/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="cm-10.2" />
+  <project name="temasek/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="cm-10.2" />
+  <project name="temasek/android_hardware_samsung/" path="hardware/samsung" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-10.2" />
+  <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-10.2" />
+  <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project name="temasek/android_bionic/" path="bionic" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
+  <project name="temasek/android_packages_apps_Gallery2/" path="packages/apps/Gallery2" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+  <project name="temasek/android_packages_apps_Nfc/" path="packages/apps/Nfc" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
+  <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-10.2" />
+  <project name="temasek/android_packages_apps_PermissionsManager/" path="packages/apps/PermissionsManager" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
+  <project name="temasek/android_packages_apps_Browser/" path="packages/apps/Browser" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
+  <project name="temasek/android_packages_apps_Phone/" path="packages/apps/Phone" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_system_vold" />
+  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+  <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="cm-10.2" />
+  <remove-project name="CyanogenMod/android_libcore" />
+  <project name="temasek/android_libcore/" path="libcore" remote="github" revision="cm-10.2" />
+  <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-10.2" />
+  <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
+  <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_elan" path="vendor/elan" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="TheMuppets" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" />
+  <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" />
+  <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+  <project name="CyanogenMod/android_device_asus_deb" path="device/asus/deb" remote="github" />
+</manifest>
