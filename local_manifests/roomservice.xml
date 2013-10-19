@@ -5,4 +5,13 @@
   <project name="omnirom/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="android-4.3" />
   <project name="omnirom/android_kernel_samsung_smdk4412/" path="kernel/samsung/smdk4412" remote="github" revision="android-4.3" />
   <project name="omnirom/android_hardware_samsung/" path="hardware/samsung" remote="github" revision="android-4.3" />
+  <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-10.2" />
+  <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
+  <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_elan" path="vendor/elan" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="TheMuppets" revision="cm-10.2" />
 </manifest>
