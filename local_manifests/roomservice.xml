@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-10.2" />
+  <project name="omnirom/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="android-4.3" />
+  <project name="omnirom/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="android-4.3" />
+  <project name="omnirom/android_kernel_samsung_smdk4412/" path="kernel/samsung/smdk4412" remote="github" revision="android-4.3" />
+  <project name="omnirom/android_hardware_samsung/" path="hardware/samsung" remote="github" revision="android-4.3" />
+</manifest>
