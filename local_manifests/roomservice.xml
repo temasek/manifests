@@ -15,11 +15,12 @@
   <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_hardware_samsung/" path="hardware/samsung" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
+  <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
 </manifest>
