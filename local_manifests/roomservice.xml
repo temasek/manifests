@@ -23,4 +23,8 @@
   <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
   <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
   <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_system_vold" />
+  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
 </manifest>
