@@ -27,4 +27,6 @@
   <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_system_vold" />
   <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
 </manifest>
