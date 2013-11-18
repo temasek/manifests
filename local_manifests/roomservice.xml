@@ -31,4 +31,6 @@
   <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_build" />
   <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
 </manifest>
