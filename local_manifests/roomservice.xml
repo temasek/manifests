@@ -4,7 +4,7 @@
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="TheMuppets" revision="cm-11.0" />
-  <project name="proprietary_vendor_elan" path="vendor/elan" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_elan" path="vendor/elan" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="TheMuppets" revision="cm-11.0" />
@@ -18,7 +18,7 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
   <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
