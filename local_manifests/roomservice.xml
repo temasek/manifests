@@ -33,4 +33,8 @@
   <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
+  <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
 </manifest>
