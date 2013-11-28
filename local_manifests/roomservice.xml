@@ -39,4 +39,6 @@
   <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_art" />
   <project name="temasek/android_art/" path="art" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
 </manifest>
