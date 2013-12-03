@@ -43,4 +43,6 @@
   <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
   <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project name="temasek/android_frameworks_av/" path="frameworks/av" remote="github" revision="cm-11.0" />
 </manifest>
