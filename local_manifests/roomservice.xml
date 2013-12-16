@@ -49,4 +49,6 @@
   <project name="temasek/android_packages_apps_Browser/" path="packages/apps/Browser" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
   <project name="temasek/android_packages_apps_Gallery2/" path="packages/apps/Gallery2" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Email" />
+  <project name="temasek/android_packages_apps_Email/" path="packages/apps/Email" remote="github" revision="cm-11.0" />
 </manifest>
