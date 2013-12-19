@@ -53,4 +53,6 @@
   <project name="temasek/android_packages_apps_Email/" path="packages/apps/Email" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
   <project name="temasek/android_packages_apps_DeskClock/" path="packages/apps/DeskClock" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
+  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
 </manifest>
