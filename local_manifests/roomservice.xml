@@ -57,4 +57,5 @@
   <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 </manifest>
