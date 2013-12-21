@@ -62,4 +62,6 @@
   <project name="temasek/android_packages_apps_Calculator/" path="packages/apps/Calculator" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_development" />
   <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_ContactsCommon" />
+  <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
 </manifest>
