@@ -65,4 +65,6 @@
   <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
   <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
+  <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
 </manifest>
