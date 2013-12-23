@@ -9,7 +9,6 @@
   <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="TheMuppets" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_device_asus_grouper" />
   <project name="temasek/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
