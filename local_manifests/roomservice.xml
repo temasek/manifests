@@ -68,4 +68,5 @@
   <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="staging" />
+  <remove-project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 </manifest>
