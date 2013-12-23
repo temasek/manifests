@@ -9,34 +9,35 @@
   <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="TheMuppets" revision="cm-11.0" />
   <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="TheMuppets" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_device_asus_grouper" />
+  <project name="temasek/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="staging" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="staging" />
   <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
   <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_system_vold" />
   <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_build" />
   <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
-  <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
-  <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_art" />
   <project name="temasek/android_art/" path="art" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_system_core" />
@@ -52,19 +53,19 @@
   <remove-project name="CyanogenMod/android_packages_apps_Email" />
   <project name="temasek/android_packages_apps_Email/" path="packages/apps/Email" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project name="temasek/android_packages_apps_DeskClock/" path="packages/apps/DeskClock" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_DeskClock/" path="packages/apps/DeskClock" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
-  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
-  <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_Calculator" />
-  <project name="temasek/android_packages_apps_Calculator/" path="packages/apps/Calculator" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Calculator/" path="packages/apps/Calculator" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_development" />
-  <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_development/" path="development" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_ContactsCommon" />
-  <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
-  <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="staging" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
-  <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="staging" />
 </manifest>
