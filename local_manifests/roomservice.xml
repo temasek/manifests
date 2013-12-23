@@ -28,7 +28,7 @@
   <remove-project name="CyanogenMod/android_system_vold" />
   <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="staging" />
+  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_build" />
   <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
