@@ -67,4 +67,9 @@
   <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_hltexx/" path="device/samsung/hltexx" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
 </manifest>
