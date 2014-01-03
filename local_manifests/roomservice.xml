@@ -72,4 +72,6 @@
   <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+  <project name="temasek/android_packages_apps_Camera2/" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
 </manifest>
