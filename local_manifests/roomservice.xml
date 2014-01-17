@@ -76,4 +76,6 @@
   <project name="temasek/android_packages_apps_Camera2/" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <project name="temasek/android_packages_apps_Torch/" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+  <project name="temasek/android_packages_apps_Nfc/" path="packages/apps/Nfc" remote="github" revision="cm-11.0" />
 </manifest>
