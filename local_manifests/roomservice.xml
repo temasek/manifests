@@ -74,7 +74,6 @@
   <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <project name="temasek/android_packages_apps_Camera2/" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_packages_apps_ScreenRecorder/" path="packages/apps/ScreenRecorder" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <project name="temasek/android_packages_apps_Torch/" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
 </manifest>
