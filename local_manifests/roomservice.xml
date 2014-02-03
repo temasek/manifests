@@ -83,4 +83,5 @@
   <project name="temasek/android_packages_apps_ScreenRecorder/" path="packages/apps/ScreenRecorder" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
   <project name="temasek/android_packages_apps_Calendar/" path="packages/apps/Calendar" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_OmniSwitch/" path="packages/apps/OmniSwitch" remote="github" revision="android-4.4" />
 </manifest>
