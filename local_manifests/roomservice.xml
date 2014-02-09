@@ -88,4 +88,6 @@
   <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project name="temasek/android_hardware_qcom_audio-caf/" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_providers_DownloadProvider" />
+  <project name="temasek/android_packages_providers_DownloadProvider/" path="packages/providers/DownloadProvider" remote="github" revision="cm-11.0" />
 </manifest>
