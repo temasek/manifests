@@ -93,4 +93,8 @@
   <project name="temasek/frameworks_opt_cards/" path="frameworks/opt/cards" remote="github" revision="kk4.4" />
   <remove-project name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project name="temasek/android_packages_providers_ContactsProvider/" path="packages/providers/ContactsProvider" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
+  <project name="temasek/android_packages_apps_DSPManager/" path="packages/apps/DSPManager" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_system_media" />
+  <project name="temasek/android_system_media/" path="system/media" remote="github" revision="cm-11.0" />
 </manifest>
