@@ -97,4 +97,6 @@
   <project name="temasek/android_packages_apps_DSPManager/" path="packages/apps/DSPManager" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_system_media" />
   <project name="temasek/android_system_media/" path="system/media" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project name="temasek/android_packages_apps_Trebuchet/" path="packages/apps/Trebuchet" remote="github" revision="cm-11.0" />
 </manifest>
