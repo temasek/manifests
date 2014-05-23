@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!--  Tilapia / Grouper -->
   <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-11.0" />
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-11.0" />
@@ -11,40 +13,54 @@
   <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="TheMuppets" revision="cm-11.0" />
   <project name="temasek/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
+
+  <!-- i9300 -->
   <project name="temasek/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
-  <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
+
+  <!-- hlte -->
+  <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="staging-v3" />
+  <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <project name="temasek/android_hardware_qcom_audio-caf/" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0" />
+
+  <!-- Samsung, needed for i9300 / hlte -->
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
+
+  <!-- frameworks -->
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_rs" />
+  <project name="temasek/android_frameworks_rs/" path="frameworks/rs" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_system_vold" />
-  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_build" />
-  <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project name="temasek/android_frameworks_av/" path="frameworks/av" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
+  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
+  <project name="temasek/frameworks_opt_cards/" path="frameworks/opt/cards" remote="github" revision="kk4.4" />
+
+
+  <!-- packages -->
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
   <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
   <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_art" />
-  <project name="temasek/android_art/" path="art" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_system_core" />
-  <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
   <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <project name="temasek/android_frameworks_av/" path="frameworks/av" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Browser" />
   <project name="temasek/android_packages_apps_Browser/" path="packages/apps/Browser" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
@@ -55,24 +71,16 @@
   <project name="temasek/android_packages_apps_UnifiedEmail/" path="packages/apps/UnifiedEmail" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
   <project name="temasek/android_packages_apps_DeskClock/" path="packages/apps/DeskClock" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
-  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Calculator" />
   <project name="temasek/android_packages_apps_Calculator/" path="packages/apps/Calculator" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_development" />
-  <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
   <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="staging-v3" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <project name="temasek/android_packages_apps_Camera2/" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
@@ -83,18 +91,36 @@
   <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
   <project name="temasek/android_packages_apps_Calendar/" path="packages/apps/Calendar" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_OmniSwitch/" path="packages/apps/OmniSwitch" remote="github" revision="android-4.4" />
-  <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <project name="temasek/android_hardware_qcom_audio-caf/" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_packages_providers_DownloadProvider" />
+ <remove-project name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project name="temasek/android_packages_providers_DownloadProvider/" path="packages/providers/DownloadProvider" remote="github" revision="cm-11.0" />
-  <project name="temasek/frameworks_opt_cards/" path="frameworks/opt/cards" remote="github" revision="kk4.4" />
   <remove-project name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project name="temasek/android_packages_providers_ContactsProvider/" path="packages/providers/ContactsProvider" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
   <project name="temasek/android_packages_apps_DSPManager/" path="packages/apps/DSPManager" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
+  <project name="temasek/android_packages_apps_CMAccount/" path="packages/apps/CMAccount" remote="github" revision="cm-11.0" />
+
+  <!-- vendor -->
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
+  <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
+
+  <!-- misc -->
+  <remove-project name="CyanogenMod/android_system_vold" />
+  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_build" />
+  <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_art" />
+  <project name="temasek/android_art/" path="art" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_development" />
+  <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_system_media" />
   <project name="temasek/android_system_media/" path="system/media" remote="github" revision="cm-11.0" />
+
+  <!-- LINARO TOOLCHAIN -->
+  <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
+  <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="4.8-androideabi" />
+
 </manifest>
