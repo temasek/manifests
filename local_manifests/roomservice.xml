@@ -25,10 +25,12 @@
   <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="staging-v3" />
   <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project name="temasek/android_hardware_qcom_audio-caf/" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <project name="temasek/android_hardware_qcom_gps/" path="hardware/qcom/gps" remote="github" revision="cm-11.0" />
 
   <!-- Samsung, needed for i9300 / hlte -->
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
@@ -48,7 +50,14 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
   <project name="temasek/frameworks_opt_cards/" path="frameworks/opt/cards" remote="github" revision="kk4.4" />
-
+  <remove-project name="CyanogenMod/android_frameworks_ex" />
+  <project name="temasek/android_frameworks_ex/" path="frameworks/ex" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
+  <project name="temasek/android_frameworks_wilhelm/" path="frameworks/wilhelm" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_net_voip" />
+  <project name="temasek/android_frameworks_opt_net_voip/" path="frameworks/opt/net/voip" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_compile_slang" />
+  <project name="temasek/android_frameworks_compile_slang/" path="frameworks/compile/slang" remote="github" revision="cm-11.0" />
 
   <!-- packages -->
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
@@ -118,6 +127,26 @@
   <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_system_media" />
   <project name="temasek/android_system_media/" path="system/media" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_bash" />
+  <project name="temasek/android_external_bash/" path="external/bash" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_chromium" />
+  <project name="temasek/android_external_chromium/" path="external/chromium" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_lsof" />
+  <project name="temasek/android_external_lsof/" path="external/lsof" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_libcore" />
+  <project name="temasek/android_libcore/" path="libcore" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_openssh" />
+  <project name="temasek/android_external_openssh/" path="external/openssh" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_dnsmasq" />
+  <project name="temasek/android_external_dnsmasq/" path="external/dnsmasq" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_stlport" />
+  <project name="temasek/android_external_stlport/" path="external/stlport" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_dalvik" />
+  <project name="temasek/android_dalvik/" path="dalvik" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_external_clang" />
+  <project name="temasek/android_external_clang/" path="external/clang" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project name="temasek/android_bionic/" path="bionic" remote="github" revision="cm-11.0" />
 
   <!-- LINARO TOOLCHAIN -->
   <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
