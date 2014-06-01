@@ -22,7 +22,7 @@
   <!-- hlte -->
   <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="staging-v3" />
   <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
   <project name="temasek/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
@@ -154,7 +154,7 @@
 
   <!-- LINARO TOOLCHAIN -->
   <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
-  <project name="temasek/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="arm-androideabi-4.8" />
+  <project name="temasek/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="arm-androideabi-4.8" />
   <project name="Cl3Kener/sm-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" remote="bitbucket" revision="master" />
   <project name="Cl3Kener/sm-arm-androideabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" remote="bitbucket" revision="master" />
 
