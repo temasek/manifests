@@ -154,7 +154,7 @@
 
   <!-- LINARO TOOLCHAIN -->
   <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
-  <project name="Cl3Kener/sm-arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
+  <project name="temasek/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="arm-androideabi-4.8" />
   <project name="Cl3Kener/sm-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" remote="bitbucket" revision="master" />
   <project name="Cl3Kener/sm-arm-androideabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" remote="bitbucket" revision="master" />
 
