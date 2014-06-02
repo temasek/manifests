@@ -152,10 +152,10 @@
   <remove-project name="CyanogenMod/android_external_fuse" />
   <project name="temasek/android_external_fuse/" path="external/fuse" remote="github" revision="cm-11.0" />
 
-  <!-- LINARO TOOLCHAIN -->
+  <!-- TOOLCHAIN -->
   <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
-  <project name="temasek/SaberMod" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="arm-androideabi-4.8" />
-  <project name="Cl3Kener/sm-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" remote="bitbucket" revision="master" />
+  <project name="temasek/sm-arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
+  <project name="temasek/sm-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" remote="bitbucket" revision="master" />
   <project name="Cl3Kener/sm-arm-androideabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" remote="bitbucket" revision="master" />
 
 </manifest>
