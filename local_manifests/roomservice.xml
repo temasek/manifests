@@ -151,6 +151,8 @@
   <project name="temasek/android_system_extras/" path="system/extras" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_external_fuse" />
   <project name="temasek/android_external_fuse/" path="external/fuse" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android" />
+  <project name="temasek/android/" path="android" remote="github" revision="cm-11.0" />
 
   <!-- TOOLCHAIN -->
   <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
