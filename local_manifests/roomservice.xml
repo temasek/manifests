@@ -162,7 +162,7 @@
   <project name="temasek/android_external_sqlite/" path="external/sqlite" remote="github" revision="cm-11.0" />
 
   <!-- TOOLCHAIN -->
-  <project name="temasek/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
+  <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="linaro-4.8-arm-eabi" />
   <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="linaro-4.9-arm-eabi" />
   <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
 
