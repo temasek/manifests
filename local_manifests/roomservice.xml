@@ -162,7 +162,7 @@
   <project name="temasek/android_external_sqlite/" path="external/sqlite" remote="github" revision="cm-11.0" />
 
   <!-- TOOLCHAIN -->
-  <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="aosp-4.8-arm-eabi" />
-  <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="aosp-4.8-arm-linux-androideabi" />
+  <project name="temasek/sm-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master" />
+  <project name="temasek/sm-arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
 
 </manifest>
