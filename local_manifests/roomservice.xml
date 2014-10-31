@@ -160,6 +160,7 @@
   <project name="temasek/android/" path="android" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_external_sqlite" />
   <project name="temasek/android_external_sqlite/" path="external/sqlite" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_bootable_recovery-philz/" path="bootable/recovery-philz" remote="github" revision="cm-11.0" />
 
   <!-- TOOLCHAIN -->
   <project name="temasek/sm-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master" />
