@@ -111,6 +111,8 @@
   <project name="temasek/android_packages_apps_DSPManager/" path="packages/apps/DSPManager" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
   <project name="temasek/android_packages_apps_CMAccount/" path="packages/apps/CMAccount" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project name="temasek/android_packages_apps_PackageInstaller/" path="packages/apps/PackageInstaller" remote="github" revision="cm-11.0" />
 
   <!-- vendor -->
   <remove-project name="CyanogenMod/android_vendor_cm" />
