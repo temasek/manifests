@@ -27,5 +27,7 @@
   <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-12.0" />
   <remove-project name="CyanogenMod/android_system_vold" />
   <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-12.0" />
+  <remove-project name="CyanogenMod/Superuser" />
+  <project name="temasek/Superuser/" path="external/koush/Superuser" remote="github" revision="cm-12.0" />
  
 </manifest>
