@@ -14,28 +14,4 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
   <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
 
-  <!-- frameworks -->
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-12.0" />
-
-  <!-- packages -->
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
-  <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-12.0" />
-
-  <!-- misc -->
-  <remove-project name="CyanogenMod/android_system_core" />
-  <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/android_system_vold" />
-  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/Superuser" />
-  <project name="temasek/Superuser/" path="external/koush/Superuser" remote="github" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/android_build" />
-  <project name="temasek/android_build/" path="build" remote="github" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-12.0" />
- 
 </manifest>
