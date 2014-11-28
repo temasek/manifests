@@ -17,6 +17,8 @@
   <!-- frameworks -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-12.0" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-12.0" />
 
   <!-- packages -->
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
