@@ -23,6 +23,8 @@
   <!-- packages -->
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-12.0" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+  <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-12.0" />
 
   <!-- misc -->
   <remove-project name="CyanogenMod/android_system_core" />
