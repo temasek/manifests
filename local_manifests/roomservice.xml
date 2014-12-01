@@ -14,4 +14,10 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
   <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
 
+  <!-- TOOLCHAIN -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="linaro-4.9-arm-eabi" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  <project name="temasek/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
+
 </manifest>
