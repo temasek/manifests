@@ -2,17 +2,16 @@
 <manifest>
 
   <!-- hlte -->
-  <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_device_samsung_hltespr/" path="device/samsung/hltespr" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_device_samsung_hltevzw/" path="device/samsung/hltevzw" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_device_samsung_hltetmo/" path="device/samsung/hltetmo" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="staging-v1" />
-  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
-  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
-  <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
+  <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-12.1" />
+  <project name="temasek/android_device_samsung_hltespr/" path="device/samsung/hltespr" remote="github" revision="cm-12.1" />
+  <project name="temasek/android_device_samsung_hltevzw/" path="device/samsung/hltevzw" remote="github" revision="cm-12.1" />
+  <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-12.1" />
+  <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-12.1" />
+  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="staging-v2" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
 
   <!-- tilapia -->
   <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-12.0" />
