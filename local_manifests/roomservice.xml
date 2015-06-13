@@ -26,10 +26,4 @@
   <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-12.1" />
   <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-12.1" />
 
-  <!-- Replaced projects -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="cm-12.0" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="cm-12.0" />
-
 </manifest>
