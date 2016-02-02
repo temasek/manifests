@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-13.0" />
+  <project name="temasek/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="temasek" />
   <project name="temasek/android_device_samsung_hltespr/" path="device/samsung/hltespr" remote="github" revision="cm-13.0" />
   <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="temasek" />
   <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-13.0" />
