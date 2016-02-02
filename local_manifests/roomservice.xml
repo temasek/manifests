@@ -10,6 +10,11 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
   <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="temasek" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+  <remove-project name="temasek/OTAUpdates" />
+  <remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
+  <remove-project name="CyanogenMod/android_packages_apps_Email" />
+  <remove-project name="CyanogenMod/android_packages_apps_UnifiedEmail" />
+  <remove-project name="CyanogenMod/android_packages_apps_Exchange" />
 
   <!-- Replaced projects -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
