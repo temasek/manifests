@@ -19,4 +19,9 @@
   <!-- Replaced projects -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <remove-project name="temasek/android_art" />
+  <project name="temasek/android_art" path="art" remote="github" revision="temasek" />
+  <remove-project name="temasek/android_dalvik" />
+  <project name="temasek/android_dalvik" path="dalvik" remote="github" revision="temasek" />
+
 </manifest>
