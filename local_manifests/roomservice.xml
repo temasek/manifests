@@ -23,5 +23,7 @@
   <project name="temasek/android_art" path="art" remote="github" revision="temasek" />
   <remove-project name="temasek/android_dalvik" />
   <project name="temasek/android_dalvik" path="dalvik" remote="github" revision="temasek" />
+  <remove-project name="temasek/android_libcore" />
+  <project name="temasek/android_libcore" path="libcore" remote="github" revision="temasek" />
 
 </manifest>
