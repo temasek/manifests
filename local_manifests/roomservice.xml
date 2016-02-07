@@ -24,5 +24,11 @@
   <project name="temasek/android_dalvik" path="dalvik" remote="github" revision="temasek" />
   <remove-project name="temasek/android_libcore" />
   <project name="temasek/android_libcore" path="libcore" remote="github" revision="temasek" />
+  <remove-project name="temasek/android_bionic" />
+  <project name="temasek/android_bionic" path="bionic" remote="github" revision="temasek" />
+  <remove-project name="temasek/android_frameworks_base" />
+  <project name="temasek/android_frameworks_base" path="frameworks/base" remote="github" revision="temasek" />
+  <remove-project name="temasek/android_build" />
+  <project name="temasek/android_build" path="build" remote="github" revision="temasek" />
 
 </manifest>
